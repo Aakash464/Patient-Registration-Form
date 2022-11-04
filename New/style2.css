@@ -1,0 +1,23 @@
+body{
+  background-color: powderblue;
+}
+.details{
+  border-radius: 25px;
+  background-color: white;
+  width: 75%;
+  margin: 100px auto 100px auto;
+}
+h1{
+  text-align: center;
+}
+hr{
+  border-style: dotted none none;
+  border-bottom: none;
+  border-color: brown;
+  border-width: 5px;
+  width: 50%;
+}
+p{
+  padding: 15px;
+  line-height: 1.5;
+}

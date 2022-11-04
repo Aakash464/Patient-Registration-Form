@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Registeration Form</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/9f2f1fcf1c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js"></script>
+
+</head>
+<body>
+<div id="title1">
+
+  <nav class="navbar navbar-expand-lg nv">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">AH Hospital</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#social-icons">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index2.html">About us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+</div>
+
+
+
+    <div class="registration-form">
+        <form>
+          <h2>Patient Registeration Form</h2>
+          <hr>
+            <div class="form-icon">
+                <span><i class="fa-solid fa-briefcase-medical"></i></span>
+            </div>
+            <div class="form-group">
+                <input type="text" id="fname" class="form-control item" id="Fname" placeholder="First Name" max="18" required>
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control item" id="Lname" placeholder="Last Name" required>
+            </div>
+            <div class="form-group">
+            <select class="form-control-item form-select gender" >
+                <option selected>Gender</option>
+                <option value="1">Male</option>
+                <option value="2">Female</option>
+                <option value="3">Other</option>
+            </select>
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control item" id="email" placeholder="Email" required>
+            </div>
+            <div class="form-group">
+                <input type="number" class="form-control item" id="phone-number" placeholder="Phone Number" required>
+            </div>
+            <div class="form-group">
+                <input type="date" class="form-control item" id="birth-date" placeholder="Birth Date">
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control item" id="blood-group" placeholder="Blood Group" required>
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control item" id="Sugar-level" placeholder="Sugar Level" required>
+            </div>
+            <div class="form-group">
+                <input type="text textfield" class="form-control item" id="You Concerns" placeholder="Your Concerns" required>
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-block create-account"  onclick="message()">Register</button>
+            </div>
+        </form>
+        <div class="social-media">
+            <h5>Contact us</h5>
+            <div id="social-icons"class="social-icons">
+                <a href="#"><i class="fa-solid fa-location-dot"></i></a>
+                <a href="mailto:aakash5678956@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                <a href="#"><i class="fa-solid fa-phone"></i></a>
+                <br><br>
+                <p>@Copuright 2022</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

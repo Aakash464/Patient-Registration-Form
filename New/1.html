@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="4" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="1.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <div id="time">
+
+    </div>
+  <script type="text/javascript">
+
+    function update(){
+      var a = new Date();
+      document.getElementById("time").innerText = a.getHours()+":"+a.getMinutes()+":"+a.getSeconds();
+    }
+    window.setInterval(update,1000);
+    update();
+  </script>
+
+  </body>
